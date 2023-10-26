@@ -154,7 +154,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.Racer_Prototype
+    Android: com.DefaultCompany.Runner_M_001
   buildNumber:
     Bratwurst: 0
     Standalone: 0
@@ -848,7 +848,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 4e3dab45-7134-49e9-97a6-85da9ff76760
   framebufferDepthMemorylessMode: 0
