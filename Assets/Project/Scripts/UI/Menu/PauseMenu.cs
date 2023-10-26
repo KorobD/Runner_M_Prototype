@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.InputSystem.OnScreen;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour {
