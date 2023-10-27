@@ -1,8 +1,7 @@
 # Runner_M_001
 |<!-- -->|<!-- -->|
 |:---|:---|
-| **Test name**  |	Runner_M_001 |
-| **Main genre** |	Runner       |
 | **Engine**	   |  Unity (2022.3.4f1)        |
-| **Short description** |	The player drives of a road, dodging obstacles. |	
-| **Main platform** | Android    |
+| **Main platform** | Mobile    |
+
+Simple prototype runner game for mobile, created on Unity 2022.3.4f1
