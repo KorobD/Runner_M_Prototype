@@ -9,11 +9,13 @@ public class Player : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Wall")) {
-            PlayerDied?.Invoke();
-            Destroy(gameObject);
+            //PlayerDied?.Invoke();
+            //Destroy(gameObject);
+            Debug.Log("Стена");
         }
         if (other.gameObject.CompareTag("Gate")) {
             OnTriggerEnterGate?.Invoke();
+            Debug.Log("Ворота");
         }
     }
 }
