@@ -2422,7 +2422,6 @@ MonoBehaviour:
   playerPrefab: {fileID: 1395976289933263531, guid: af58eda22f738874b8632b63b79bd73c,
     type: 3}
   gameManager: {fileID: 552880392}
-  playerController: {fileID: 0}
 --- !u!1 &1129101734
 GameObject:
   m_ObjectHideFlags: 0
@@ -3561,13 +3560,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1583662249}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
+        - m_Target: {fileID: 1583662254}
+          m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+          m_MethodName: Pause
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
