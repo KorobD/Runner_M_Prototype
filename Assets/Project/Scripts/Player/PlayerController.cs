@@ -2,16 +2,22 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
 using UnityEngine.InputSystem.OnScreen;
+using Zenject;
 
 public class PlayerController : MonoBehaviour {
 
+    private GameManager gameManager;
 
-    [SerializeField] GameManager gameManager;
     private Vector3 targetPos;
     private float laneOffset = 3;
-    [SerializeField] private float moveSpeed = 20;
+    private float moveSpeed = 20;
 
 
+    [Inject]
+    public void Construct(GameManager gameManager) {
+        this.gameManager = gameManager;
+
+    }
 
     private void Start() {
         targetPos = transform.position;
@@ -21,7 +27,6 @@ public class PlayerController : MonoBehaviour {
         Movement();
         GetTransformPosition();
     }
-
 
     private void Movement() {
         
